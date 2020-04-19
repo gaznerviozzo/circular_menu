@@ -213,7 +213,7 @@ class CircularMenuState extends State<CircularMenu>
       child: Align(
         alignment: widget.alignment,
         child: MenuItem(
-          icon: null,
+          icon: Icons.star,
           margin: widget.toggleButtonMargin,
           color: widget.toggleButtonColor ?? Theme.of(context).primaryColor,
           elevation: widget.toggleButtonElevation,
